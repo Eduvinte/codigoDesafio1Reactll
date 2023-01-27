@@ -1,0 +1,7 @@
+.container_home {
+    @include body_pages();
+
+    #pastel {
+        margin-top: 30px;
+    }
+}

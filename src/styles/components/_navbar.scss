@@ -1,0 +1,22 @@
+.navbar_container{
+    background-color: $primary_color;
+
+    #link_nav{
+        color: $color_white;
+        text-decoration: none;
+        margin-left: 30px;
+        font-family: $primary_text;
+        font-size: 20px;
+        padding: 10px 15px 10px 15px;
+
+        &:hover{
+            background-color: $three_color;
+            transition: all 0.5s;
+            border-radius: 5px;
+        }
+    }
+
+    #icon {
+        margin-top: -5px;
+    }
+}

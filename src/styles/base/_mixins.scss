@@ -1,0 +1,26 @@
+@mixin body_pages() {
+    background-color: $color_white;
+    color: $second_color;
+    font-family: $primary_text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+@mixin body_contact() {
+    background-color: $color_white;
+    color: $second_color;
+    font-family: $primary_text;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    height: 40vh;
+    width: 70vh;
+    border: solid 1px black;
+}
+
+

@@ -1,0 +1,29 @@
+.container_contactChildren {
+    @include body_contact();
+}
+
+.container_contact {
+    @include body_pages();
+}
+
+#title_contact {
+    margin-top: -3%;
+    margin-bottom: 5%;
+}
+
+#btn_contact {
+    background-color: $primary_color;
+    border: none;
+    padding: 2%;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: $three_color;
+    }
+}
+
+@media (max-width:768px) {
+    .container_contactChildren {
+        width: 50vh;
+    }
+}
